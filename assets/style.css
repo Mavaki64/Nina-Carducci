@@ -3,8 +3,23 @@ body {
 	margin: auto;
 }
 * {
-	font-family: 'Inter';
+	font-family: 'Inter', Arial;
 	font-style: normal;
+}
+
+/* Réduit fortement le CLS : réserve l'espace du carousel avant le chargement des images */
+#carouselExampleIndicators .carousel-inner {
+	/* ratio réel des images du slider (~1920x888) */
+	aspect-ratio: 80 / 37;
+}
+#carouselExampleIndicators .carousel-item {
+	height: 100%;
+}
+#carouselExampleIndicators .carousel-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
 }
 .top-header {
 	background-color: white;
@@ -80,7 +95,7 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
-	font-family: 'Spectral';
+	font-family: 'Spectral', serif;
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
@@ -90,9 +105,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -137,20 +149,20 @@ body {
 }
 
 .quote {
-	font-family: 'Spectral';
+	font-family: 'Spectral', serif;
 	font-style: italic;
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral', serif;
 	font-style: italic;
 	font-weight: 300;
 
 }
 .quote__author {
-	font-family: Spectral;
+	font-family: 'Spectral', serif;
 	font-weight: 800;
 	font-size: 22px;
 }
