@@ -7,9 +7,7 @@ body {
 	font-style: normal;
 }
 
-/* Réduit fortement le CLS : réserve l'espace du carousel avant le chargement des images */
 #carouselExampleIndicators .carousel-inner {
-	/* ratio réel des images du slider (~1920x888) */
 	aspect-ratio: 80 / 37;
 }
 #carouselExampleIndicators .carousel-item {
@@ -20,6 +18,9 @@ body {
 	height: 100%;
 	object-fit: cover;
 	display: block;
+}
+.carousel-control-prev, .carousel-control-next {
+	color: white;
 }
 .top-header {
 	background-color: white;
