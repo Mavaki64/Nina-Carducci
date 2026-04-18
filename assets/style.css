@@ -36,6 +36,10 @@ body {
 
 .top-header .name {
 	font-size: 26px;
+	margin: 0;
+	margin-bottom: 8px;
+	font-weight: 400;
+	line-height: normal;
 }
 
 .nav ul {
@@ -56,6 +60,10 @@ body {
 
 .social-link img {
 	width: 20px;
+}
+
+main {
+	width: 100%;
 }
 
 #about {
@@ -99,16 +107,23 @@ body {
 	font-family: 'Spectral', serif;
 	font-weight: 800;
 	font-style: italic;
+	line-height: 1.2;
 	width: 60%;
+	margin-bottom: 8px;
 }
-#about-me p {
+#about-me p:not(.about-me__introduction) {
 	width: 80%;
 	font-size: 14px;
+}
+#about-me p.about-me__introduction {
+	width: 60%;
+	font-size: 1rem;
 }
 
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size: calc(1.3rem + 0.6vw);
 }
 .gallery .nav {
 	justify-content: center;
@@ -159,7 +174,10 @@ body {
 	font-family: 'Spectral', serif;
 	font-style: italic;
 	font-weight: 300;
-
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-size: 2.5rem;
+	line-height: 1.2;
 }
 .quote__author {
 	font-family: 'Spectral', serif;
@@ -200,6 +218,12 @@ body {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 1;
+}
+
+#contact h2 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-size: 1.75rem;
 }
 
 #contact {
@@ -267,7 +291,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me p {
 		width: 100%;
 	}
 }

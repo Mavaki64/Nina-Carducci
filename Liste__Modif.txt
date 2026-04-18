@@ -1,0 +1,32 @@
+Performances :
+    ✔ Différer l'execution du javascript (script.js, maugallery.js, bootstrap bundle, jquery, google font...) 
+    ✔ Redimensionner les images en fonction des besoins, comprésser les images, supprimer les données exif et les convertir au format webp
+    ✔ Ajouter l'attribut fetchpriority="high" sur la première image active du carrousel + loading="eager" et pourquoi pas un link rel="preload" as="image" href="img/src.webp"
+    ✔ Utiliser une police de fallback le temps du chargement
+    ✔ Utiliser le script bootstrap minifier
+    ✔ A partir de la section about ajouter un laoding="lazy" sur les images
+    ✔ Définir une widht et height sur les images (attention au proportions)
+    ✔ Retirer js et css inutile 
+    ✔ minifier tout
+
+SEO :
+    ✔ Ajouter un element title
+    ✔ Ajouter meta description
+    ✔ Ajouter Alt au images
+    ✔ Remplacer les éléments non sémentiques par des éléments sémentiques lorsque c'est possible
+
+
+Accessibilité : 
+    ✔ Lier les labels du formulaires a leurs input
+    ✔ Ajouter l'attribut lang sur la balise HTML
+    ✔ Ajouter du contrast sur le boutton actif du portfolio
+    ✔ Modification de la structure sémantique de la page (Main, Structure de titre)
+    ✔ Modification de la structure des titres h1 -> h6
+    ✔ Texte des boutons de carrousel en français
+    ✔ Aria label sur les section carrousel, footer, lien instagram et nav
+
+
+
+✔ Mettre en place le référencement local en utilisant Schema.org.
+✔ Ajouter les metas pour les réseaux sociaux.
+
